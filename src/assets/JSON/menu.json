@@ -1,0 +1,31 @@
+{
+  "menus": [
+    {
+      "title": "Helpdesk",
+      "icon": "fa fa-desktop",
+      "children": [
+        {
+          "title": "Helpdesk Documentation",
+          "url": "/assets/Documents/Mawarid-helpdesk-documentation/MawaridHelpdeskDocumentation.md",
+          "image":"https://cdn-icons-png.flaticon.com/128/4969/4969093.png"
+        }
+      ]
+    },
+    {
+      "title": "Maintenance",
+      "icon": "fa fa-person-digging",
+      "children": [
+        {
+          "title": "Maintenance Admin Login Documentation",
+          "url": "/assets/Documents/Mawarid-Maintenance-Documentation/AdminLoginDocumentation/AdminLoginDocumentation.md",
+           "image":"https://cdn-icons-png.flaticon.com/128/12263/12263199.png"
+        },
+        {
+          "title": "Maintenance Supervisor Login Documentation",
+          "url": "assets/Documents/Mawarid-Maintenance-Documentation/SupervisorLoginDocumentation/SupervisorLoginDocumentation.md",
+          "image":"https://cdn-icons-png.flaticon.com/128/9787/9787450.png"
+        }
+      ]
+    }
+  ]
+}
