@@ -1,7 +1,7 @@
 {
   "menus": [
     {
-      "title": "Helpdesk",
+      "title": "Arco",
       "icon": "fa fa-desktop",
       "children": [
         {
@@ -12,16 +12,16 @@
       ]
     },
     {
-      "title": "Maintenance",
+      "title": "Arco",
       "icon": "fa fa-person-digging",
       "children": [
         {
-          "title": "Maintenance Admin Login Documentation",
+          "title": "Arco-1",
           "url": "/assets/Documents/Mawarid-Maintenance-Documentation/AdminLoginDocumentation/AdminLoginDocumentation.md",
            "image":"https://cdn-icons-png.flaticon.com/128/12263/12263199.png"
         },
         {
-          "title": "Maintenance Supervisor Login Documentation",
+          "title": "Arco-2",
           "url": "assets/Documents/Mawarid-Maintenance-Documentation/SupervisorLoginDocumentation/SupervisorLoginDocumentation.md",
           "image":"https://cdn-icons-png.flaticon.com/128/9787/9787450.png"
         }
