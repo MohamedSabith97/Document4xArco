@@ -15,6 +15,7 @@ import { AuthService } from '../../auth.service';
 export class MenuComponent {
   ngOnInit(): void {
     debugger;
+    this.DevMode = localStorage.getItem("DevMode")
     let data = localStorage.getItem("Reload");
     if(data=="true"){
       localStorage.setItem('Reload',"false");
@@ -27,6 +28,7 @@ export class MenuComponent {
   isSubMenuOpen: boolean[] = [];
   Name: any;
   Image: any;
+  DevMode: any;
   constructor(
     private documentService: DocumentServiceService,
     private authService: AuthService
@@ -57,7 +59,6 @@ export class MenuComponent {
     this.documentService.getMenu().subscribe((data: any) => {
       this.menus = data.menus;
       this.childMenu = this.combineChildren(this.menus);
-      // console.log(this.childMenu);
     });
   }
 
