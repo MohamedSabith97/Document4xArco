@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
     if (google!=undefined && google && google?.accounts) {
       google.accounts.id.initialize({
         client_id:
-          '70089408606-9tdkuu4bcrmmt7551m25vlu7snv6u0vm.apps.googleusercontent.com',
+          '185819391393-9pl3dei4r05utubmmcp48efti48u1fe5.apps.googleusercontent.com',
         callback: (res: any) => this.handleLogin(res),
       });
 
