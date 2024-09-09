@@ -1,29 +1,48 @@
 {
   "menus": [
     {
-      "title": "Helpdesk",
+      "title": "HRM",
       "icon": "fa fa-desktop",
       "children": [
         {
-          "title": "Helpdesk Documentation",
-          "url": "/assets/Documents/Mawarid-helpdesk-documentation/MawaridHelpdeskDocumentation.md",
-          "image":"https://cdn-icons-png.flaticon.com/128/4969/4969093.png"
-        }
-      ]
-    },
-    {
-      "title": "Maintenance",
-      "icon": "fa fa-person-digging",
-      "children": [
-        {
-          "title": "Maintenance Admin Login Documentation",
-          "url": "/assets/Documents/Mawarid-Maintenance-Documentation/AdminLoginDocumentation/AdminLoginDocumentation.md",
-           "image":"https://cdn-icons-png.flaticon.com/128/12263/12263199.png"
+          "title": "Employee",
+          "url": "/assets/Documents/HRM/a-Employee/Employee.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
         },
         {
-          "title": "Maintenance Supervisor Login Documentation",
-          "url": "assets/Documents/Mawarid-Maintenance-Documentation/SupervisorLoginDocumentation/SupervisorLoginDocumentation.md",
-          "image":"https://cdn-icons-png.flaticon.com/128/9787/9787450.png"
+          "title": "On Board",
+          "url": "/assets/Documents/HRM/b-On Board/On Board.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Leave Management",
+          "url": "/assets/Documents/HRM/Leave Management/Leave_Management.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Travel",
+          "url": "/assets/Documents/HRM/d-Travel/Travel.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Employee Retirement",
+          "url": "/assets/Documents/HRM/e-Employee Retirement/Employee_Retirement.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Loan",
+          "url": "/assets/Documents/HRM/f-Loan/Loan.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Reissue",
+          "url": "/assets/Documents/HRM/g-Reissue/Reissue.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
+        },
+        {
+          "title": "Renewal",
+          "url": "/assets/Documents/HRM/h-Renewal/Renewal.md",
+          "image":"https://erp.arco.sa/assets/img/module_icon/hr2.png"
         }
       ]
     }
