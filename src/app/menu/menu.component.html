@@ -12,13 +12,15 @@
         </ul>
         } -->
         <ul class="navbar-nav">
-            <div class="">
-                <li class="nav-item">
+            <div style="display: flex;align-items: center;">
+                @if(DevMode){
+                <li class="nav-item pe-3">
                     <a href="https://github.com/MegharanBasith/Document4xArco" target="_blank" class="nav-link"
                         data-widget="control-sidebar" data-slide="true">
                         <i class="fa-regular fa-pen-to-square"></i>
                     </a>
                 </li>
+                }
                 <li class="nav-item">
                     <a (click)="openRightMenu()" class="nav-link" data-widget="control-sidebar" data-slide="true"
                         href="javascript:void(0)" role="button">
